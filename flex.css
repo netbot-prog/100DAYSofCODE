@@ -1,0 +1,23 @@
+body{
+    /* direction: rtl; */
+}
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+    margin: 20px auto;
+}
+.flex-item{
+    background-color: cornflowerblue;
+    height: 100px;
+    margin: 10px;
+}
